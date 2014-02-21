@@ -181,6 +181,39 @@ body h1, h2, h3, h4, p, a, span {
     min-height: 100px;
     width:327px;
 }
+.page_contant {
+    clear: both;
+    min-height: 100px;
+}
+.overview_text {
+    clear: both;
+    min-height: 100px;
+}
+.welcome_text {
+    margin: 0;
+    padding: 25px 25px 25px 0;
+    border: 0;
+    float: none;
+    width:auto;
+}
+img.welcome_text_img {
+    border: 4px solid #FFF;
+    margin-right: 35px;
+    float: left;
+}
+.welcome_text h1 {
+    margin: 0 0 30px;
+    padding: 0;
+}
+.welcome_text p {
+    margin: 0;
+    padding: 0;
+    text-align:justify;
+}
+.welcome_text_unit_wrapper {
+    width: auto;
+    float: none;
+}
 .bod_icon_container {
     float: none;
     width: auto;
@@ -458,6 +491,21 @@ img.image {
         min-height: 66px;
         width:970px;
     }
+    .page_contant {
+        clear: both;
+        min-height: 100px;
+    }
+	  .welcome_text {
+        padding-left: 0px;
+    }
+    .overview_text {
+        clear: both;
+        min-height: 100px;
+    }
+    .welcome_text_unit_wrapper {
+        width: 970px;
+        float: left;
+    }
     .bod_icon_container {
         float: left;
         width: 242px;
@@ -602,6 +650,26 @@ img.image {
         clear: both;
         min-height: 66px;
         width:970px;
+    }
+    .page_contant {
+        clear: both;
+        min-height: 100px;
+    }
+	   .welcome_text {
+        padding-left: 25px;
+        min-height:260px;
+    }
+    img.welcome_text_img {
+        float: left;
+        display:block;
+    }
+    .overview_text {
+        clear: both;
+        min-height: 100px;
+    }
+    .welcome_text_unit_wrapper {
+        width: 970px;
+        float: left;
     }
     .bod_icon_container {
         float: left;
