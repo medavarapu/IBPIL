@@ -214,6 +214,25 @@ body h1, h2, h3, h4, p, a, span {
     clear: both;
     min-height: 100px;
     width: auto;
+    font: normal bold 14px/120% Georgia, "Times New Roman", Times, serif;
+    color: #7c7c7c;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+.name a {
+    font: italic normal bold 14px/120% Georgia, "Times New Roman", Times, serif;
+    color: #7c7c7c;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+.name a:hover {
+    font: italic normal bold 14px/120% Georgia, Times New Roman, Times, serif;
+    color: #00bfff;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
 }
 .comment_with_button {
     overflow: hidden;
@@ -394,6 +413,10 @@ a.breadcrumb-item:hover {
 p.footer_breadcrumb a.breadcrumb-item {
     color: #07617C;
 }
+img.image {
+    margin-left: auto;
+    margin-right:auto;
+}
 @media only screen and (min-width : 641px) {
     body {
         text-align: left;
@@ -432,7 +455,7 @@ p.footer_breadcrumb a.breadcrumb-item {
     }
     .menu_container {
         clear: both;
-        min-height: 100px;
+        min-height: 66px;
         width:970px;
     }
     .bod_icon_container {
@@ -443,21 +466,21 @@ p.footer_breadcrumb a.breadcrumb-item {
     .km_icon_container {
         float: left;
         width: 242px;
-        min-height: 100px;
+        min-height: 66px;
     }
     .kp_icon_container {
         float: left;
         width: 242px;
-        min-height: 100px;
+        min-height: 66px;
     }
     .csr_icon_container {
         float: left;
         width: 244px;
-        min-height: 100px;
+        min-height: 66px;
     }
     .bod_icon_container {
         clear: both;
-        min-height: 100px;
+        min-height: 66px;
     }
     .icons {
         clear: both;
@@ -466,7 +489,7 @@ p.footer_breadcrumb a.breadcrumb-item {
     }
     .name {
         clear: both;
-        min-height: 50px;
+        min-height: 16px;
         width: auto;
     }
     .about_us_unit_wrapper {
@@ -577,7 +600,7 @@ p.footer_breadcrumb a.breadcrumb-item {
     }
     .menu_container {
         clear: both;
-        min-height: 100px;
+        min-height: 66px;
         width:970px;
     }
     .bod_icon_container {
@@ -588,21 +611,21 @@ p.footer_breadcrumb a.breadcrumb-item {
     .km_icon_container {
         float: left;
         width: 242px;
-        min-height: 100px;
+        min-height: 66px;
     }
     .kp_icon_container {
         float: left;
         width: 242px;
-        min-height: 100px;
+        min-height: 66px;
     }
     .csr_icon_container {
         float: left;
         width: 244px;
-        min-height: 100px;
+        min-height: 66px;
     }
     .bod_icon_container {
         clear: both;
-        min-height: 100px;
+        min-height: 66px;
     }
     .about_us_unit_wrapper {
         width: 970px;
@@ -630,5 +653,11 @@ p.footer_breadcrumb a.breadcrumb-item {
     }
     .main_wrapper {
         min-height: 1042px;
+    }
+    img.image {
+        display: block;
+    }
+    .name {
+        min-height: 16px;
     }
 }
