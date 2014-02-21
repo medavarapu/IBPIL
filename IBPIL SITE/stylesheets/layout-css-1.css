@@ -277,6 +277,41 @@ a.read-more-footer:hover {
     min-height: 100px;
     background:url("../images/sprites_pattern_stripes.png") repeat-x scroll right bottom;
 }
+.private_equities p {
+    padding-left:25px;
+}
+.private_equities_body {
+    clear: both;
+    min-height: 100px;
+}
+img.private_equities_body {
+	padding-top:10px;
+}
+.cvci_logo {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.ac_logo {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.sc_logo {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.bv_logo {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.3i_logo {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
 @media only screen and (min-width : 641px) {
     body {
         text-align: left;
@@ -315,7 +350,7 @@ a.read-more-footer:hover {
     }
     .private_equities {
         clear: both;
-        min-height: 121px;
+        min-height: 123px;
     }
     .about_us {
         min-height: 122px;
@@ -362,6 +397,35 @@ a.read-more-footer:hover {
         float: left;
         min-height: 408px;
     }
+    .private_equities_body {
+        clear: both;
+        min-height: 75px;
+    }
+    .cvci_logo {
+        float: left;
+        width: 194px;
+        min-height: 75px;
+    }
+    .ac_logo {
+        float: left;
+        width: 194px;
+        min-height: 75px;
+    }
+    .sc_logo {
+        float: left;
+        width: 194px;
+        min-height: 75px;
+    }
+    .bv_logo {
+        float: left;
+        width: 194px;
+        min-height: 75px;
+    }
+    .3i_logo {
+        float: left;
+        width: 194px;
+        min-height: 75px;
+    }
 }
 @media only screen and (min-width : 1024px) {
     body {
@@ -391,7 +455,7 @@ a.read-more-footer:hover {
     }
     .private_equities {
         clear: both;
-        min-height: 121px;
+        min-height: 123px;
     }
     .comment_with_button {
         width: 930px;
@@ -402,5 +466,34 @@ a.read-more-footer:hover {
     }
     h1.heading1 {
         min-height: 50px;
+    }
+    .private_equities_body {
+        clear: both;
+        min-height: 75px;
+    }
+    .cvci_logo {
+        float: left;
+        width: 194px;
+        min-height: 75px;
+    }
+    .ac_logo {
+        float: left;
+        width: 194px;
+        min-height: 75px;
+    }
+    .sc_logo {
+        float: left;
+        width: 194px;
+        min-height: 75px;
+    }
+    .bv_logo {
+        float: left;
+        width: 194px;
+        min-height: 75px;
+    }
+    .3i_logo {
+        float: left;
+        width: 194px;
+        min-height: 75px;
     }
 }
