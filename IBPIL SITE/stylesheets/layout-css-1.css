@@ -172,6 +172,49 @@ body h1, h2, h3, h4, p, a, span {
     clear: both;
     min-height: 100px;
 }
+.header_shadow {
+    clear: both;
+    min-height: 757px;
+}
+.menu_container {
+    clear: both;
+    min-height: 100px;
+    width:327px;
+}
+.bod_icon_container {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.km_icon_container {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.kp_icon_container {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.csr_icon_container {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.bod_icon_container {
+    clear: both;
+    min-height: 100px;
+}
+.icons {
+    clear: both;
+    min-height: 100px;
+    width: auto;
+}
+.name {
+    clear: both;
+    min-height: 100px;
+    width: auto;
+}
 .comment_with_button {
     overflow: hidden;
     margin-top:0;
@@ -367,7 +410,7 @@ p.footer_breadcrumb a.breadcrumb-item {
     }
     .main_wrapper {
         clear: both;
-        min-height: 1079px;
+        min-height: 1042px;
         width: 970px;
         margin-right: auto;
         margin-left: auto;
@@ -382,6 +425,49 @@ p.footer_breadcrumb a.breadcrumb-item {
     .content {
         clear: both;
         min-height: 100px;
+    }
+    .header_shadow {
+        clear: both;
+        min-height: 59px;
+    }
+    .menu_container {
+        clear: both;
+        min-height: 100px;
+        width:970px;
+    }
+    .bod_icon_container {
+        float: left;
+        width: 242px;
+        min-height: 100px;
+    }
+    .km_icon_container {
+        float: left;
+        width: 242px;
+        min-height: 100px;
+    }
+    .kp_icon_container {
+        float: left;
+        width: 242px;
+        min-height: 100px;
+    }
+    .csr_icon_container {
+        float: left;
+        width: 244px;
+        min-height: 100px;
+    }
+    .bod_icon_container {
+        clear: both;
+        min-height: 100px;
+    }
+    .icons {
+        clear: both;
+        min-height: 50px;
+        width: auto;
+    }
+    .name {
+        clear: both;
+        min-height: 50px;
+        width: auto;
     }
     .about_us_unit_wrapper {
         width: 970px;
@@ -485,6 +571,39 @@ p.footer_breadcrumb a.breadcrumb-item {
     .content {
         min-height: 757px;
     }
+    .header_shadow {
+        clear: both;
+        min-height: 59px;
+    }
+    .menu_container {
+        clear: both;
+        min-height: 100px;
+        width:970px;
+    }
+    .bod_icon_container {
+        float: left;
+        width: 242px;
+        min-height: 100px;
+    }
+    .km_icon_container {
+        float: left;
+        width: 242px;
+        min-height: 100px;
+    }
+    .kp_icon_container {
+        float: left;
+        width: 242px;
+        min-height: 100px;
+    }
+    .csr_icon_container {
+        float: left;
+        width: 244px;
+        min-height: 100px;
+    }
+    .bod_icon_container {
+        clear: both;
+        min-height: 100px;
+    }
     .about_us_unit_wrapper {
         width: 970px;
         float: left;
@@ -510,6 +629,6 @@ p.footer_breadcrumb a.breadcrumb-item {
         min-height:60px;
     }
     .main_wrapper {
-        min-height: 1079px;
+        min-height: 1042px;
     }
 }
