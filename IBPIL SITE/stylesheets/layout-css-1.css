@@ -272,45 +272,84 @@ a.read-more-footer:hover {
     float: none;
     min-height:172px;
 }
-.private_equities {
-    clear: both;
-    min-height: 100px;
-    background:url("../images/sprites_pattern_stripes.png") repeat-x scroll right bottom;
+.footer {
+    background-color:#F5F5F5;
 }
-.private_equities p {
-    padding-left:25px;
-}
-.private_equities_body {
-    clear: both;
-    min-height: 100px;
-}
-img.private_equities_body {
-	padding-top:10px;
-}
-.cvci_logo {
-    float: none;
+.footer_breadcrumb {
+    display: block;
     width: auto;
-    min-height: 100px;
+    list-style-type: none;
+    padding: 0;
+    float:none;
 }
-.ac_logo {
-    float: none;
-    width: auto;
-    min-height: 100px;
+.footer_breadcrumb li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
 }
-.sc_logo {
-    float: none;
-    width: auto;
-    min-height: 100px;
+.footer_breadcrumb li a {
+    text-decoration: none;
+    min-height: 18px;
+    margin:0;
+    padding: 0 25px;
 }
-.bv_logo {
-    float: none;
-    width: auto;
-    min-height: 100px;
+.copyright {
+    font-size: 13px;
+    cursor: default;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:0;
+    margin-bottom:0;
+    padding-left:10px;
+    padding-right:10px;
+    min-height:10px;
 }
-.3i_logo {
-    float: none;
-    width: auto;
-    min-height: 100px;
+.copyright .company {
+    color: #666;
+    font-weight: bold;
+    cursor: pointer;
+}
+.copyright .company:hover {
+    color: #77C4D2;
+}
+.copyright .privacy_policy {
+    cursor: pointer;
+    text-decoration:none;
+    color:#07617C;
+}
+.copyright .privacy_policy:hover {
+    border-bottom: 1px solid #77C4D3;
+}
+.breadcrumbs {
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    min-height:10px;
+}
+.breadcrumbs p {
+    text-align: center;
+}
+p.footer_breadcrumb a {
+    text-decoration: none;
+    min-height: 58px;
+    padding: 5px;
+    font-size: 13px;
+    margin-top:0;
+    margin-bottom:0;
+    margin-right:0px;
+    margin-left:0px;
+}
+p.footer_breadcrumb {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+a.breadcrumb-item:hover {
+    color: #E65555;
+    text-decoration:underline;
+}
+p.footer_breadcrumb a.breadcrumb-item {
+    color: #07617C;
 }
 @media only screen and (min-width : 641px) {
     body {
@@ -328,7 +367,7 @@ img.private_equities_body {
     }
     .main_wrapper {
         clear: both;
-        min-height: 1585px;
+        min-height: 1079px;
         width: 970px;
         margin-right: auto;
         margin-left: auto;
@@ -348,9 +387,35 @@ img.private_equities_body {
         width: 970px;
         float: left;
     }
-    .private_equities {
+    .copyright {
+        padding-left: 40px;
+        padding-right: 0px;
+        min-height: 50px;
+        float: left;
+        width: 378px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .breadcrumbs {
+        min-height: 50px;
+        float: left;
+        width: 542px;
+        padding:40px 10px 40px 0;
+    }
+    .breadcrumbs p {
+        text-align: right;
+    }
+    p.footer_breadcrumb a {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    p.footer_breadcrumb {
+        width: 542px;
+        min-height:24px;
+    }
+    .footer {
         clear: both;
-        min-height: 123px;
+        min-height: 124px;
     }
     .about_us {
         min-height: 122px;
@@ -397,35 +462,6 @@ img.private_equities_body {
         float: left;
         min-height: 408px;
     }
-    .private_equities_body {
-        clear: both;
-        min-height: 75px;
-    }
-    .cvci_logo {
-        float: left;
-        width: 194px;
-        min-height: 75px;
-    }
-    .ac_logo {
-        float: left;
-        width: 194px;
-        min-height: 75px;
-    }
-    .sc_logo {
-        float: left;
-        width: 194px;
-        min-height: 75px;
-    }
-    .bv_logo {
-        float: left;
-        width: 194px;
-        min-height: 75px;
-    }
-    .3i_logo {
-        float: left;
-        width: 194px;
-        min-height: 75px;
-    }
 }
 @media only screen and (min-width : 1024px) {
     body {
@@ -453,47 +489,27 @@ img.private_equities_body {
         width: 970px;
         float: left;
     }
-    .private_equities {
+    .copyright {
+        width: 378px;
+        min-height:50px;
+    }
+    .breadcrumbs {
+        width: 542px;
+        min-height:50px;
+    }
+    p.footer_breadcrumb {
+        min-height: 24px;
+        width:542px;
+    }
+    .footer {
         clear: both;
-        min-height: 123px;
+        min-height: 124px;
     }
     .comment_with_button {
         width: 930px;
         min-height:60px;
     }
-    h1.heading {
-        min-height: 50px;
-    }
-    h1.heading1 {
-        min-height: 50px;
-    }
-    .private_equities_body {
-        clear: both;
-        min-height: 75px;
-    }
-    .cvci_logo {
-        float: left;
-        width: 194px;
-        min-height: 75px;
-    }
-    .ac_logo {
-        float: left;
-        width: 194px;
-        min-height: 75px;
-    }
-    .sc_logo {
-        float: left;
-        width: 194px;
-        min-height: 75px;
-    }
-    .bv_logo {
-        float: left;
-        width: 194px;
-        min-height: 75px;
-    }
-    .3i_logo {
-        float: left;
-        width: 194px;
-        min-height: 75px;
+    .main_wrapper {
+        min-height: 1079px;
     }
 }
