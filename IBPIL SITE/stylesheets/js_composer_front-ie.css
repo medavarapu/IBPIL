@@ -1,0 +1,59 @@
+/* lte IE 9 style*/
+@media (max-width: 767px)  { }@media (min-width: 768px) and (max-width: 979px)  { }.wpb_button {
+	border-radius: 2px;
+	position: relative;
+}
+
+.wpb_button.active,
+.wpb_button:active {
+	position: relative;
+}
+
+.wpb_button.active,
+.wpb_button {
+	position: relative;
+}
+
+button.wpb_btn-large,
+span.wpb_btn-large {
+	border-radius: 2px;
+	position: relative;
+}
+
+/* Call to action responsive rules
+---------------------------------------------------------- */
+@media (max-width: 600px)  { }/* tabs_tour_accordion responsive rules */
+@media (max-width: 480px)  { }@media (max-width: 480px)  { }.wpb_alert {
+	border-radius: 2px;
+	position: relative;
+}
+
+.vc_progress_bar .vc_single_bar {
+	border-radius: 3px;
+	position: relative;
+}
+
+.vc_progress_bar .vc_single_bar .vc_bar {
+	border-radius: 3px;
+	position: relative;
+}
+
+.vc_progress_bar .vc_single_bar .vc_bar.striped {
+	-pie-background: linear-gradient( 0 100%, 100% 0, rgba(255, 255, 255, 0.15) 0.25,  transparent 0.25,  transparent 0.5, rgba(255, 255, 255, 0.15) 0.5, rgba(255, 255, 255, 0.15) 0.75,  transparent 0.75, to(transparent));
+	position: relative;
+}
+
+.vc_pie_chart_back {
+	border-radius: 999px;
+	position: relative;
+}
+
+.vc_carousel .vc_pagination .swiper-pagination-switch {
+	border-radius: 8px;
+	position: relative;
+}
+
+/* Responsive stuff
+---------------------------------------------------------- */
+/* Make all grid-sized elements block level again */
+@media (max-width: 480px)  { }
