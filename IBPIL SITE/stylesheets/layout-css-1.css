@@ -332,8 +332,8 @@ img.welcome_text_img {
     text-align: center;
     cursor: pointer;
 }
-.name_visited a:visited{
-	 font: italic normal bold 14px/120% Georgia, Times New Roman, Times, serif;
+.name_visited a:visited {
+    font: italic normal bold 14px/120% Georgia, Times New Roman, Times, serif;
     color: #00bfff;
 }
 .comment_with_button {
@@ -610,6 +610,119 @@ img.article_five_img {
     margin: 15px 0;
     padding: 0;
 }
+/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+ .reveal-modal-bg {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    background: rgba(0, 0, 0, .8);
+    z-index: 100;
+    display: none;
+    top: 0;
+    left: 0;
+}
+.reveal-modal {
+    visibility: hidden;
+    top: 100px;
+    left: 50%;
+    margin-left: -300px;
+    width: 520px;
+    background: #eee url(modal-gloss.png) no-repeat -200px -80px;
+    position: absolute;
+    z-index: 101;
+    padding: 30px 40px 34px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    -box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+}
+.reveal-modal1 {
+    visibility: hidden;
+    top: 100px;
+    left: 50%;
+    margin-left: -300px;
+    width: 520px;
+    background: #eee url(modal-gloss.png) no-repeat -200px -80px;
+    position: absolute;
+    z-index: 101;
+    padding: 30px 40px 34px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    -box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+}
+.reveal-modal p, h2, h4 {
+    text-align:left;
+}
+.reveal-modal.small {
+    width: 200px;
+    margin-left: -140px;
+}
+.reveal-modal.medium {
+    width: 400px;
+    margin-left: -240px;
+}
+.reveal-modal.large {
+    width: 600px;
+    margin-left: -340px;
+}
+.reveal-modal.xlarge {
+    width: 800px;
+    margin-left: -440px;
+}
+.reveal-modal .close-reveal-modal {
+    font-size: 22px;
+    line-height: .5;
+    position: absolute;
+    top: 8px;
+    right: 11px;
+    color: #aaa;
+    text-shadow: 0 -1px 1px rbga(0, 0, 0, .6);
+    font-weight: bold;
+    cursor: pointer;
+    -moz-text-shadow: 0 -1px 1px rbga(0, 0, 0, .6);
+    -webkit-text-shadow: 0 -1px 1px rbga(0, 0, 0, .6);
+}
+.bodbox_container_body {
+    clear: both;
+    min-height: 100px;
+    width: auto;
+    padding-bottom:15px;
+}
+.bodbox_column {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.team-container .article-thumbnail {
+    width: 220px;
+}
+.article-caption {
+    width: 76%;
+}
+.team-container article {
+    width: 219px;
+}
+.team-container article .article-body {
+    min-height: 138px;
+}
+.team-container article {
+    width: 219px;
+}
+.media {
+    width: 219px;
+}
+.team-container {
+    width: 221px;
+    padding-left:10px;
+}
 @media only screen and (min-width : 641px) {
     body {
         text-align: left;
@@ -776,23 +889,46 @@ img.article_five_img {
         float: left;
         min-height: 408px;
     }
-	.article_five_unit_wrapper {
+    .article_five_unit_wrapper {
         min-height: 473px;
     }
-	 .article_five {
+    .article_five {
         border-width: 0px;
         margin:25px;
         min-height:473px;
         padding:25px;
     }
-	 .article_five h5 a {
+    .article_five h5 a {
         color: #484747;
     }
     .article_five a:hover {
         color: #7dbd22;
     }
+    img.article_five_img {
+        width: 910px;
+        height:325px;
+    }
+    .bodbox_column {
+        float: left;
+        width: 219px;
+        min-height: 100px;
+    }
+    .column_2 {
+        float: left;
+        width: 242px;
+        min-height: 100px;
+    }
+    .column_3 {
+        float: left;
+        width: 242px;
+        min-height: 100px;
+    }
+    .column_4 {
+        float: left;
+        width: 244px;
+        min-height: 100px;
+    }
 }
-
 @media only screen and (min-width : 1024px) {
     body {
         min-width: 990px;
@@ -911,7 +1047,7 @@ img.article_five_img {
     .name {
         min-height: 16px;
     }
-	  .article_five {
+    .article_five {
         padding: 25px;
         border-style:solid;
         border-width:0px;
@@ -919,5 +1055,30 @@ img.article_five_img {
     }
     .article_five p {
         min-height: 15px;
+    }
+    img.article_five_img {
+        width: 910px;
+        height:325px;
+    }
+    .bodbox_column {
+        float: left;
+        width: 219px;
+        min-height: 100px;
+        padding-left:5px;
+    }
+    .column_2 {
+        float: left;
+        width: 242px;
+        min-height: 100px;
+    }
+    .column_3 {
+        float: left;
+        width: 242px;
+        min-height: 100px;
+    }
+    .column_4 {
+        float: left;
+        width: 244px;
+        min-height: 100px;
     }
 }

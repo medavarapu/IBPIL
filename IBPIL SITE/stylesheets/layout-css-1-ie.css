@@ -14,4 +14,24 @@
 	position: relative;
 }
 
+.article_five {
+	border-radius: 0px;
+	position: relative;
+}
+
+img.article_five_img {
+	border-radius: 5px;
+	position: relative;
+}
+
+.reveal-modal {
+	border-radius: 5px;
+	position: relative;
+}
+
+.reveal-modal1 {
+	border-radius: 5px;
+	position: relative;
+}
+
 @media only screen and (min-width : 641px) { }@media only screen and (min-width : 1024px) { }
