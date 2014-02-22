@@ -1,0 +1,129 @@
+﻿icon-box {
+    margin: 2.5em 0px 3.7em;
+        margin-top: 2.5em;
+        margin-right-value: 0px;
+        margin-bottom: 3.7em;
+        margin-left-value: 0px;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+    clear: both;
+}
+.icon-box.three_col>article {
+	float:left;width:33.33333333333333%;
+}
+.icon-box article {
+    display: block;
+    padding: 2.5em 2em 1.5em;
+        padding-top: 2.5em;
+        padding-right-value: 2em;
+        padding-bottom: 1.5em;
+        padding-left-value: 2em;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+        padding-right-ltr-source: physical;
+        padding-right-rtl-source: physical;
+    background: none repeat scroll 0% 0% #666;
+        background-color: #666;
+        background-image: none;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-position: 0% 0%;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-size: auto auto;
+    color: #FFF;
+    font-weight: 400;
+    margin: 1em auto;
+        margin-top: 1em;
+        margin-right-value: auto;
+        margin-bottom: 1em;
+        margin-left-value: auto;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+    position: relative;
+    transition: all 0.3s ease-out 0s;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-out;
+        transition-delay: 0s;
+}
+.cyan-light-box {
+    background-color: rgb(81, 198, 198) !important;
+}
+.icon-box p, .icon-box h5, .icon-box a {
+    padding-left: 50px;
+        padding-left-value: 50px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+}
+.icon-box p, .icon-box h5 {
+    display: block;
+}
+p, pre {
+    margin: 1em 0px 1.5em;
+        margin-top: 1em;
+        margin-right-value: 0px;
+        margin-bottom: 1.5em;
+        margin-left-value: 0px;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+}
+.icon-box i {
+    float: left;
+    font-size: 3em;
+    width: 40px;
+    height: 40px;
+    margin-right: 6px;
+        margin-right-value: 6px;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+}
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-box article .icon-box-title, .icon-box article a, .icon-box p{
+    color: #FFF;
+}
+.icon-box .icon-box-title {
+    padding-top: 0px;
+    margin: 0px;
+        margin-top: 0px;
+        margin-right-value: 0px;
+        margin-bottom: 0px;
+        margin-left-value: 0px;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+    clear: none;
+    text-transform: uppercase;
+    font-size: 1em !important;
+    font-weight: 700;
+}
+.icon-box p, .icon-box h5, .icon-box a {
+    padding-left: 50px;
+        padding-left-value: 50px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+}
+.icon-box p, .icon-box h5 {
+    display: block;
+}
+.light-blue-box {
+    background-color: rgb(67, 161, 200) !important;
+}
+.blue-box {
+    background-color: rgb(90, 105, 212) !important;
+}

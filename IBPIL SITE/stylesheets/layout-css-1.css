@@ -1,3 +1,4 @@
+*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
 body {
     background-color:#EBEBEB;
     color:#666666;
@@ -450,6 +451,17 @@ img.image {
     margin-left: auto;
     margin-right:auto;
 }
+a:hover{color:#ccc;}
+a:focus{outline:thin dotted;}
+h6{clear:both;line-height:1.3em;-webkit-font-smoothing:antialiased;}
+h6{font-size:0.9em;margin:1em 0;text-transform:capitalize;}
+
+p,pre{margin:1em 0 1.5em 0;-webkit-font-smoothing:antialiased;}
+.more-arrow{display:inline-block;padding:0.5em 1.5em 0.5em 0;border:2px solid rgba(0,0,0,0);border-radius:2px;}
+.more-arrow:after{content:"\f178";font-family:FontAwesome;}
+.more-arrow:hover{padding:0.5em 1.5em;border:2px solid rgba(0,0,0,0.1);}
+
+.content-skeleton{max-width:970px;margin:auto;position:relative;clear:both;text-align:left;-webkit-transition:all 0.4s ease-out;-moz-transition:all 0.4s ease-out;-o-transition:all 0.4s ease-out;-ms-transition:all 0.4s ease-out;transition:all 0.4s ease-out;}
 @media only screen and (min-width : 641px) {
     body {
         text-align: left;
