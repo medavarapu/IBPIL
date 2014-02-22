@@ -9,4 +9,9 @@
 	position: relative;
 }
 
+.more-arrow {
+	border-radius: 2px;
+	position: relative;
+}
+
 @media only screen and (min-width : 641px) { }@media only screen and (min-width : 1024px) { }
