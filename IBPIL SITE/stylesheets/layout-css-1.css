@@ -1,3 +1,5 @@
+ @import  url('./blog.css');
+ 
 body {
     background-color:#EBEBEB;
     color:#666666;
@@ -723,6 +725,28 @@ img.article_five_img {
     width: 221px;
     padding-left:10px;
 }
+.tline-box {
+    min-height: 56px;
+}
+#tline-content {
+    min-height: 164px;
+}
+.page-title {
+	padding-top:20px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid rgb(238, 238, 238);
+    text-align:left;
+    margin-left:25px;
+    margin-right:25px;
+}
+.page-title span {
+    font-size:20px;
+    color:rgb(153, 153, 153);
+    padding-bottom: 8px;
+    border-bottom: 2px solid #00bfff;
+    text-align:left;
+}
+
 @media only screen and (min-width : 641px) {
     body {
         text-align: left;
@@ -776,6 +800,9 @@ img.article_five_img {
     .page_contant {
         clear: both;
         min-height: 100px;
+    }
+	  h4.page-title {
+        min-height: 20px;
     }
     .welcome_text {
         padding-left: 0px;
@@ -972,6 +999,9 @@ img.article_five_img {
     .page_contant {
         clear: both;
         min-height: 100px;
+    }
+	 h4.page-title {
+        min-height: 20px;
     }
     .welcome_text {
         padding-left: 25px;
