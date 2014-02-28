@@ -1,4 +1,5 @@
 @import  url('./blog.css');
+ @import  url('./business.css');
  body {
     background-color:#EBEBEB;
     color:#666666;
@@ -758,7 +759,6 @@ img.article_five_img {
     border-bottom: 2px solid #00bfff;
     text-align:left;
 }
-
 /*keypersonnel*/
  .st-container {
     width: 970px;
@@ -812,9 +812,15 @@ img.article_five_img {
     padding: 2em;
     /*height: 220px;*/
 }
+.ibpgl_box {
+    width: 216px;
+}
 .kpbox_operations {
     clear: both;
     min-height: 51px;
+}
+.aerl_box {
+    width: 220px;
 }
 .article_nineteen {
     margin: 10px;
@@ -824,10 +830,47 @@ img.article_five_img {
     border: 1px solid #CCC;
     width:auto;
 }
+.ibel_box {
+    width: 219px;
+}
 .article_nineteen h3 {
     font-size:14px;
     margin: 0 0 14px;
     text-align:left;
+}
+.ibeul_box {
+    width: 136px;
+}
+.content_container {
+    width: 536px;
+}
+.iconsbox_name {
+    width: 140px;
+}
+.map_container {
+	min-height: 560px;
+	margin-left: 10px;
+}
+.iconsbox {
+    width: 22px;
+}
+.ibpml_box {
+    width: 230px;
+}
+.dhpl_box {
+    width: 216px;
+}
+.ibtpl_box {
+    width: 221px;
+}
+.ibetl_box {
+    width: 228px;
+}
+.ibeml_box {
+    width: 224px;
+}
+.ibpil_box {
+    width: 223px;
 }
 .article_nineteen h4 {
     margin: 0 0 14px;
@@ -1055,6 +1098,24 @@ img.article_five_img {
         width: 244px;
         min-height: 100px;
     }
+    .content_container {
+        min-height: 531px;
+        width:526px;
+    }
+    .iconsbox {
+        min-height: 12px;
+    }
+    .iconsbox_name {
+        width: 176px;
+    }
+    .dhpl_box {
+        width: 202px;
+        height: 21px;
+    }
+    .ibeul_box {
+        width: 202px;
+        min-height:20px;
+    }
 }
 @media only screen and (min-width : 1024px) {
     body {
@@ -1217,12 +1278,32 @@ img.article_five_img {
         width: 244px;
         min-height: 100px;
     }
-	    .kpbox_operations {
+    .kpbox_operations {
         clear: both;
         min-height: 317px;
     }
     .article_nineteen {
         width: 177.5px;
         float: left;
+    }
+    .content_container {
+        min-height: 531px;
+        width:526px;
+    }
+    .map_container {
+        min-height: 531px;
+    }
+    .iconsbox {
+        min-height: 12px;
+    }
+    .iconsbox_name {
+        width: 176px;
+    }
+    .dhpl_box {
+        width: 202px;
+    }
+    .ibeul_box {
+        width: 202px;
+        min-height:20px;
     }
 }
