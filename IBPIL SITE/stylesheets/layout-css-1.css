@@ -813,14 +813,16 @@ img.article_five_img {
     /*height: 220px;*/
 }
 .ibpgl_box {
-    width: 216px;
+    width: 50%;
+    height: 20px;
 }
 .kpbox_operations {
     clear: both;
     min-height: 51px;
 }
 .aerl_box {
-    width: 220px;
+    width: 50%;
+    height: 20px;
 }
 .article_nineteen {
     margin: 10px;
@@ -831,7 +833,8 @@ img.article_five_img {
     width:auto;
 }
 .ibel_box {
-    width: 219px;
+    width: 50%;
+    height: 20px;
 }
 .article_nineteen h3 {
     font-size:14px;
@@ -848,30 +851,37 @@ img.article_five_img {
     width: 140px;
 }
 .map_container {
-	min-height: 560px;
+	min-height: 600px;
 	margin-left: 10px;
 }
 .iconsbox {
     width: 22px;
 }
 .ibpml_box {
-    width: 230px;
+    width: 48%;
+    height: 20px;
 }
 .dhpl_box {
     width: 216px;
 }
 .ibtpl_box {
-    width: 221px;
+    width: 50%;
+    height: 20px;
 }
 .ibetl_box {
-    width: 228px;
+	width: 50%;
+	height: 21px;
 }
 .ibeml_box {
-    width: 224px;
+	width: 50%;
+	height: 21px;
 }
 .ibpil_box {
-    width: 223px;
+    width: 47%;
+    height: 21px;
+    margin-left:0px;
 }
+
 .article_nineteen h4 {
     margin: 0 0 14px;
     text-align:left;
@@ -1099,22 +1109,25 @@ img.article_five_img {
         min-height: 100px;
     }
     .content_container {
-        min-height: 531px;
-        width:526px;
+	min-height: 600px;
+	width: 525px;
     }
     .iconsbox {
         min-height: 12px;
     }
     .iconsbox_name {
-        width: 176px;
+        width: auto;
     }
     .dhpl_box {
-        width: 202px;
-        height: 21px;
+        width: 43%;
+        height: 20px;
     }
     .ibeul_box {
-        width: 202px;
-        min-height:20px;
+        width: 43%;
+        min-height: 20px;
+    }
+    .ibpil_box {
+        margin-left: 0px;
     }
 }
 @media only screen and (min-width : 1024px) {
@@ -1305,5 +1318,8 @@ img.article_five_img {
     .ibeul_box {
         width: 202px;
         min-height:20px;
+    }
+    .ibpil_box {
+        margin-left: 0px;
     }
 }
