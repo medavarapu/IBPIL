@@ -34,4 +34,19 @@ img.article_five_img {
 	position: relative;
 }
 
-@media only screen and (min-width : 641px) { }@media only screen and (min-width : 1024px) { }
+.operational_header {
+	border-radius: 5px 5px;
+	position: relative;
+}
+
+@media only screen and (min-width : 641px) { .operational_header {
+	border-radius: 5px 5px 0px 5px;
+	position: relative;
+}
+
+}@media only screen and (min-width : 1024px) { .operational_header {
+	border-radius: 5px 5px 0px 5px;
+	position: relative;
+}
+
+}

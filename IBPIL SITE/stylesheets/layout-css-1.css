@@ -836,10 +836,105 @@ img.article_five_img {
     width: 50%;
     height: 20px;
 }
+.operational_header {
+    float:none;
+    width:auto;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+    background-color:rgb(12, 87, 153);
+    border-top-left-radius:5px 5px;
+    border-top-right-radius:5px 5px;
+    border-bottom-right-radius:5px 5px;
+    border-bottom-left-radius:5px 5px;
+    -moz-border-radius-topleft:5px 5px;
+    -webkit-border-top-left-radius:5px 5px;
+    -moz-border-radius-topright:5px 5px;
+    -webkit-border-top-right-radius:5px 5px;
+    -moz-border-radius-bottomright:5px 5px;
+    -webkit-border-bottom-right-radius:5px 5px;
+    -moz-border-radius-bottomleft:5px 5px;
+    -webkit-border-bottom-left-radius:5px 5px;
+}
+.operational_header p {
+    font-size:12px;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    vertical-align:middle;
+    position:relative;
+    left:-2.5px;
+    top:130px;
+    margin:0px;
+}
+.operational_container {
+    clear:both;
+    min-height:531px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.project_box {
+    float:none;
+    width:auto;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+
+.operational_body {
+    position: absolute;
+    float: left;
+    width: auto;
+    min-height: 242px;
+    width: 427px;
+    left: 515px;
+    height: 243px;
+}
+.fule_box {
+    float:none;
+    width:auto;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.project_box {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.capacity_box {
+    float:none;
+    width:auto;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.capacity_box {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.operational_header {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.operational_body {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
 .article_nineteen h3 {
     font-size:14px;
     margin: 0 0 14px;
     text-align:left;
+}
+.operational_container {
+    clear: both;
+    min-height: 531px;
+    padding:10px;
 }
 .ibeul_box {
     width: 136px;
@@ -851,8 +946,8 @@ img.article_five_img {
     width: 140px;
 }
 .map_container {
-	min-height: 600px;
-	margin-left: 10px;
+    min-height: 600px;
+    margin-left: 10px;
 }
 .iconsbox {
     width: 22px;
@@ -869,19 +964,18 @@ img.article_five_img {
     height: 20px;
 }
 .ibetl_box {
-	width: 50%;
-	height: 21px;
+    width: 50%;
+    height: 21px;
 }
 .ibeml_box {
-	width: 50%;
-	height: 21px;
+    width: 50%;
+    height: 21px;
 }
 .ibpil_box {
     width: 47%;
     height: 21px;
     margin-left:0px;
 }
-
 .article_nineteen h4 {
     margin: 0 0 14px;
     text-align:left;
@@ -1109,8 +1203,46 @@ img.article_five_img {
         min-height: 100px;
     }
     .content_container {
-	min-height: 600px;
-	width: 525px;
+        min-height: 600px;
+        width: 525px;
+    }
+    .operational_container {
+        clear: both;
+    }
+    .operational_header {
+        position:relative;
+        float: left;
+        width: 40px;
+        min-height: 242px;
+        -webkit-border-top-right-radius:5px;
+        -moz-border-radius-topleft:5px;
+        border-top-left-radius:5px;
+        -webkit-border-bottom-left-radius:5px;
+        -moz-border-radius-bottomleft:5px;
+        border-bottom-left-radius:5px;
+        -moz-border-radius-topright:5px;
+        border-top-right-radius:5px;
+        -webkit-border-top-left-radius:5px;
+    }
+    .operational_body {
+        float: left;
+        width: 454px;
+        height:35px;
+    }
+    .project_box {
+        float: left;
+        width: 151px;
+        min-height: 35px;
+    }
+    .fuel_box {
+        float: left;
+        width: 151px;
+        min-height: 35px;
+    }
+    .capacity_box {
+        float: left;
+        width: 152px;
+        min-height: 35px;
     }
     .iconsbox {
         min-height: 12px;
@@ -1302,6 +1434,45 @@ img.article_five_img {
     .content_container {
         min-height: 531px;
         width:526px;
+    }
+    .operational_container {
+        clear: both;
+        padding:10px;
+    }
+    .operational_header {
+        position:absolute;
+        float: left;
+        width: 40px;
+        min-height: 242px;
+        -webkit-border-top-right-radius:5px;
+        -moz-border-radius-topleft:5px;
+        border-top-left-radius:5px;
+        -webkit-border-bottom-left-radius:5px;
+        -moz-border-radius-bottomleft:5px;
+        border-bottom-left-radius:5px;
+        -moz-border-radius-topright:5px;
+        border-top-right-radius:5px;
+        -webkit-border-top-left-radius:5px;
+    }
+    .operational_body {
+        float: left;
+        width: 454px;
+        height:35px;
+    }
+    .project_box {
+        float: left;
+        width: 151px;
+        min-height: 35px;
+    }
+    .fuel_box {
+        float: left;
+        width: 151px;
+        min-height: 35px;
+    }
+    .capacity_box {
+        float: left;
+        width: 152px;
+        min-height: 35px;
     }
     .map_container {
         min-height: 531px;
