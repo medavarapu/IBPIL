@@ -910,9 +910,42 @@ img.article_five_img {
     width: auto;
     min-height: 100px;
 }
+.uc_container {
+    position:relative;
+    clear:both;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+    top:270px;
+}
+.ud_container {
+    position:relative;
+    top:270px;
+    clear:both;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+    min-height:110px;
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+}
+.ud_header {
+}
+.uc_header {
+    min-height: 146px;
+}
+.ud_container {
+    clear: both;
+    min-height: 100px;
+}
 .operational_body {
     float: none;
     width: auto;
+    min-height: 100px;
+}
+.uc_container {
+    clear: both;
     min-height: 100px;
 }
 .article_nineteen h3 {
@@ -1203,14 +1236,30 @@ img.article_five_img {
         min-height: 100px;
     }
     .content_container {
-        min-height: 600px;
+        min-height: 584px;
         width: 501px;
         padding-left:10px;
     }
     .operational_container {
         clear: both;
         width:475px;
-        min-height:511px;
+        min-height:251px;
+    }
+    .uc_container {
+        clear: both;
+        min-height: 146px;
+        padding: 10px;
+    }
+    .ud_container {
+        clear: both;
+        min-height: 127px;
+        padding:10px;
+    }
+    .ud_header {
+        min-height: 120px;
+    }
+    .uc_header {
+        min-height: 144px;
     }
     .operational_header {
         position:relative;
@@ -1449,7 +1498,7 @@ img.article_five_img {
         float: left;
     }
     .content_container {
-        min-height: 531px;
+        min-height: 584px;
         width:496px;
         padding-left:30px;
     }
@@ -1457,7 +1506,22 @@ img.article_five_img {
         clear: both;
         padding:10px;
         width:475px;
-        min-height:511px;
+        min-height:251px;
+    }
+    .uc_container {
+        clear: both;
+        min-height: 146px;
+    }
+    .ud_container {
+        clear: both;
+        min-height: 127px;
+        padding:10px;
+    }
+    .ud_header {
+        min-height: 126px;
+    }
+    .uc_header {
+        min-height: 144px;
     }
     .operational_header {
         position:absolute;
