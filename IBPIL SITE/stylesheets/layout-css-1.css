@@ -844,15 +844,9 @@ img.article_five_img {
     -webkit-box-shadow:none;
     background-color:rgb(12, 87, 153);
     border-top-left-radius:5px 5px;
-    border-top-right-radius:5px 5px;
-    border-bottom-right-radius:5px 5px;
     border-bottom-left-radius:5px 5px;
     -moz-border-radius-topleft:5px 5px;
     -webkit-border-top-left-radius:5px 5px;
-    -moz-border-radius-topright:5px 5px;
-    -webkit-border-top-right-radius:5px 5px;
-    -moz-border-radius-bottomright:5px 5px;
-    -webkit-border-bottom-right-radius:5px 5px;
     -moz-border-radius-bottomleft:5px 5px;
     -webkit-border-bottom-left-radius:5px 5px;
 }
@@ -870,10 +864,10 @@ img.article_five_img {
     margin:0px;
 }
 .operational_container {
-    clear:both;
-    min-height:531px;
-    -webkit-transform:none;
-    -webkit-box-shadow:none;
+    position: absolute;
+    clear: both;
+    min-height: 531px;
+    width: 505px;
 }
 .project_box {
     float:none;
@@ -882,22 +876,14 @@ img.article_five_img {
     -webkit-transform:none;
     -webkit-box-shadow:none;
 }
-
 .operational_body {
     position: absolute;
     float: left;
     width: auto;
     min-height: 242px;
     width: 427px;
-    left: 515px;
+    left: 54px;
     height: 243px;
-}
-.fule_box {
-    float:none;
-    width:auto;
-    min-height:100px;
-    -webkit-transform:none;
-    -webkit-box-shadow:none;
 }
 .project_box {
     float: none;
@@ -915,6 +901,9 @@ img.article_five_img {
     float: none;
     width: auto;
     min-height: 100px;
+}
+.operations_header {
+    width: 431px;
 }
 .operational_header {
     float: none;
@@ -941,6 +930,7 @@ img.article_five_img {
 }
 .content_container {
     width: 536px;
+    padding-left:25px;
 }
 .iconsbox_name {
     width: 140px;
@@ -971,10 +961,20 @@ img.article_five_img {
     width: 50%;
     height: 21px;
 }
+.operations_body {
+    clear:both;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
 .ibpil_box {
     width: 47%;
     height: 21px;
     margin-left:0px;
+}
+.operations_body {
+    clear: both;
+    min-height: 100px;
 }
 .article_nineteen h4 {
     margin: 0 0 14px;
@@ -1204,45 +1204,57 @@ img.article_five_img {
     }
     .content_container {
         min-height: 600px;
-        width: 525px;
+        width: 501px;
+        padding-left:10px;
     }
     .operational_container {
         clear: both;
+        width:475px;
+        min-height:511px;
     }
     .operational_header {
         position:relative;
         float: left;
         width: 40px;
-        min-height: 242px;
-        -webkit-border-top-right-radius:5px;
+        min-height: 250px;
         -moz-border-radius-topleft:5px;
         border-top-left-radius:5px;
         -webkit-border-bottom-left-radius:5px;
         -moz-border-radius-bottomleft:5px;
         border-bottom-left-radius:5px;
-        -moz-border-radius-topright:5px;
-        border-top-right-radius:5px;
         -webkit-border-top-left-radius:5px;
     }
     .operational_body {
         float: left;
-        width: 454px;
-        height:35px;
+        width: 429px;
+        height: 37px;
+    }
+    .operations_header {
+        width: 429px;
     }
     .project_box {
         float: left;
-        width: 151px;
+        width: 243px;
         min-height: 35px;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(204, 204, 204);
     }
     .fuel_box {
         float: left;
-        width: 151px;
+        width: 80px;
         min-height: 35px;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(204, 204, 204);
     }
     .capacity_box {
         float: left;
-        width: 152px;
+        width: 104px;
         min-height: 35px;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(204, 204, 204);
     }
     .iconsbox {
         min-height: 12px;
@@ -1260,6 +1272,11 @@ img.article_five_img {
     }
     .ibpil_box {
         margin-left: 0px;
+    }
+    .operations_body {
+        clear: both;
+        min-height: 62px;
+        width:429px;
     }
 }
 @media only screen and (min-width : 1024px) {
@@ -1433,45 +1450,49 @@ img.article_five_img {
     }
     .content_container {
         min-height: 531px;
-        width:526px;
+        width:496px;
+        padding-left:30px;
     }
     .operational_container {
         clear: both;
         padding:10px;
+        width:475px;
+        min-height:511px;
     }
     .operational_header {
         position:absolute;
         float: left;
         width: 40px;
-        min-height: 242px;
-        -webkit-border-top-right-radius:5px;
+        min-height: 250px;
         -moz-border-radius-topleft:5px;
         border-top-left-radius:5px;
         -webkit-border-bottom-left-radius:5px;
         -moz-border-radius-bottomleft:5px;
         border-bottom-left-radius:5px;
         -moz-border-radius-topright:5px;
-        border-top-right-radius:5px;
         -webkit-border-top-left-radius:5px;
     }
     .operational_body {
         float: left;
-        width: 454px;
-        height:35px;
+        width: 429px;
+        height:37px;
+    }
+    .operations_header {
+        width: 429px;
     }
     .project_box {
         float: left;
-        width: 151px;
+        width: 243px;
         min-height: 35px;
     }
     .fuel_box {
         float: left;
-        width: 151px;
+        width: 80px;
         min-height: 35px;
     }
     .capacity_box {
         float: left;
-        width: 152px;
+        width: 104px;
         min-height: 35px;
     }
     .map_container {
@@ -1492,5 +1513,10 @@ img.article_five_img {
     }
     .ibpil_box {
         margin-left: 0px;
+    }
+    .operations_body {
+        clear: both;
+        min-height: 62px;
+        width:429px;
     }
 }

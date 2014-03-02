@@ -152,12 +152,122 @@
     width: 487px;
     min-height: 264px;
 }
-
+.operations_header {
+	clear: both;
+	min-height: auto;
+	width: auto;
+}
+.operations_header h5 {
+    color:rgb(102, 102, 102);
+    font-family:arial, helvetica, sans-serif;
+    min-height: 10px;
+    margin-bottom:0px;
+    margin-top:10px;
+    text-align:center;
+}
+.projects_box {
+    float: left;
+    width: 243px;
+    min-height: 28px;
+    border-bottom:2px solid #E3E3E3;
+}
+.fule_box {
+    float: left;
+    width: 81px;
+    min-height: 28px;
+    border-bottom:2px solid #E3E3E3;
+}
 .capacity_box {
     float: left;
     width: 103px;
     min-height: 28px;
     border-bottom:2px solid #E3E3E3;
+}
+.operations_col {
+    clear: both;
+    min-height: 20px;
+    width:238px;
+    float:left;
+    border-bottom:1px solid #E3E3E3;
+    padding-left:5px;
+}
+.operations_col h3 {
+    color:rgb(102, 102, 102);
+    font-family:arial, helvetica, sans-serif;
+    font-size:10px;
+    text-align:left;
+    font-weight:bold;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.operations_fule {
+    float: left;
+    min-height: 20px;
+    width: 81px;
+    border-bottom:1px solid #E3E3E3;
+}
+.operations_fule h3 {
+    color:rgb(102, 102, 102);
+    font-family:arial, helvetica, sans-serif;
+    font-size:10px;
+    text-align:left;
+    font-weight:bold;
+    margin-top:5px;
+    margin-bottom:5px;
+    text-align:center;
+}
+.capacity_column {
+    float: left;
+    min-height: 20px;
+    width: 103px;
+    border-bottom:1px solid #E3E3E3;
+}
+.capacity_column h3 {
+    color:rgb(102, 102, 102);
+    font-family:arial, helvetica, sans-serif;
+    font-size:10px;
+    text-align:left;
+    font-weight:bold;
+    margin-top:5px;
+    margin-bottom:5px;
+    text-align:center;
+}
+.footer_col {
+    clear: both;
+    min-height: 18px;
+    width:319px;
+    float:left;
+    border-top:1px solid #E3E3E3;
+    border-bottom:2px solid #E3E3E3;
+    background-color:#EDEDED;
+    padding-left:5px;
+}
+.footer_col h3 {
+    color:rgb(102, 102, 102);
+    font-family:arial, helvetica, sans-serif;
+    font-size:10px;
+    text-align:left;
+    font-weight:bold;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.footer_total {
+    float: left;
+    min-height: 18px;
+    width: 103px;
+    border-top:1px solid #E3E3E3;
+    border-bottom:2px solid rgb(227, 227, 227);
+    background-color:#EDEDED;
+}
+.footer_total h3 {
+    color:rgb(102, 102, 102);
+    font-family:arial, helvetica, sans-serif;
+    font-size:10px;
+    text-align:left;
+    font-weight:bold;
+    margin-top:5px;
+    margin-bottom:5px;
+    text-align:center;
 }
 .business_contant_container h4 {
 	color: rgb(102, 102, 102);
