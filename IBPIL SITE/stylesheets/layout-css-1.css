@@ -231,6 +231,13 @@ body h1, h2, h3, h4, p, a, span {
     float: right;
     clear: both;
 }
+.thermal_icon_container {
+    float:none;
+    width:auto;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
 .quote_article .function {
     color: #09F;
     font-size: 12px;
@@ -238,6 +245,35 @@ body h1, h2, h3, h4, p, a, span {
     display: block;
     float: right;
     clear: both;
+}
+.gas_icon_container {
+    float:none;
+    width:auto;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.thermal_icon_container {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.renewable_icon_container {
+    float:none;
+    width:auto;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.gas_icon_container {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.renewable_icon_container {
+    float: none;
+    width: auto;
+    min-height: 100px;
 }
 .header_shadow {
     clear: both;
@@ -1071,6 +1107,21 @@ img.article_five_img {
         min-height: 66px;
         width:970px;
     }
+    .thermal_icon_container {
+        float: left;
+        width: 323px;
+        min-height: 66px;
+    }
+    .gas_icon_container {
+        float: left;
+        width: 323px;
+        min-height: 66px;
+    }
+    .renewable_icon_container {
+        float: left;
+        width: 324px;
+        min-height: 66px;
+    }
     .page_contant {
         clear: both;
         min-height: 100px;
@@ -1327,6 +1378,9 @@ img.article_five_img {
         min-height: 62px;
         width:429px;
     }
+    .map_container {
+        min-height: 583px;
+    }
 }
 @media only screen and (min-width : 1024px) {
     body {
@@ -1367,6 +1421,21 @@ img.article_five_img {
         clear: both;
         min-height: 66px;
         width:970px;
+    }
+    .thermal_icon_container {
+        float: left;
+        width: 323px;
+        min-height: 66px;
+    }
+    .gas_icon_container {
+        float: left;
+        width: 323px;
+        min-height: 66px;
+    }
+    .renewable_icon_container {
+        float: left;
+        width: 324px;
+        min-height: 66px;
     }
     .page_contant {
         clear: both;
@@ -1560,7 +1629,7 @@ img.article_five_img {
         min-height: 35px;
     }
     .map_container {
-        min-height: 531px;
+        min-height: 583px;
     }
     .iconsbox {
         min-height: 12px;
