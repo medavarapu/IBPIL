@@ -23,6 +23,7 @@
     font-size: 0;
     text-align: left;
     color: #666;
+	text-align:center;
 }
 .sky-tabs > input {
     position: absolute;
@@ -95,24 +96,24 @@
     font-size: 13px;
 }
 .sky-tabs > ul > li {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: auto;
-    padding: 20px 25px 25px;
-    background: rgba(255, 255, 255, 0.9);
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    opacity: 0;
-    -o-transform-origin: 0% 0%;
-    -ms-transform-origin: 0% 0%;
-    -moz-transform-origin: 0% 0%;
-    -webkit-transform-origin: 0% 0%;
-    -o-transition: opacity 0.8s, -o-transform 0.8s;
-    -ms-transition: opacity 0.8s, -ms-transform 0.8s;
-    -moz-transition: opacity 0.8s, -moz-transform 0.8s;
-    -webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
+	position: absolute;
+	top: 4px;
+	left: 0px;
+	width: 100%;
+	overflow: auto;
+	padding: 20px 25px 25px;
+	background: rgba(255, 255, 255, 0.9);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	opacity: 0;
+	-o-transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+	-moz-transform-origin: 0% 0%;
+	-webkit-transform-origin: 0% 0%;
+	-o-transition: opacity 0.8s, -o-transform 0.8s;
+	-ms-transition: opacity 0.8s, -ms-transform 0.8s;
+	-moz-transition: opacity 0.8s, -moz-transform 0.8s;
+	-webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
 }
 .sky-tabs > .sky-tab-content-1:checked ~ ul > .sky-tab-content-1, .sky-tabs > .sky-tab-content-2:checked ~ ul > .sky-tab-content-2, .sky-tabs > .sky-tab-content-3:checked ~ ul > .sky-tab-content-3, .sky-tabs > .sky-tab-content-4:checked ~ ul > .sky-tab-content-4, .sky-tabs > .sky-tab-content-5:checked ~ ul > .sky-tab-content-5, .sky-tabs > .sky-tab-content-6:checked ~ ul > .sky-tab-content-6, .sky-tabs > .sky-tab-content-7:checked ~ ul > .sky-tab-content-7, .sky-tabs > .sky-tab-content-8:checked ~ ul > .sky-tab-content-8, .sky-tabs > .sky-tab-content-9:checked ~ ul > .sky-tab-content-9 {
     position: relative;
