@@ -563,6 +563,7 @@ img.article_fifteen_img {
     padding: 0;
 }
 .article_fifteen p {
+	text-align:justify;
     margin: 0;
     padding: 0;
 }
