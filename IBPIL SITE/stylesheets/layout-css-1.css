@@ -1126,6 +1126,59 @@ img.article_five_img {
     text-align:justify;
     letter-spacing:0px;
 }
+
+
+/* Headers
+-------------------------------------------------------------- */
+
+h6{font-size:12px;letter-spacing:1.6px;margin-bottom:15px;padding-bottom:5px;text-transform:uppercase;}
+
+
+
+
+/* Images & Galleria
+-------------------------------------------------------------- */
+.post_grid_image img{background:#f5f5f5;border:1px solid #fff;padding:4px;outline:1px solid #eaeaea;}
+
+.one_third{width:30%;}
+
+.one_third{
+	position: relative;
+	margin-right: 1%;
+	margin-bottom: 10px;
+	float: left;
+}
+
+/*
+===============================================================================================================
+02. STRUCTURE
+=============================================================================================================== */
+
+#content_inner{
+	position: relative;
+	width: auto;
+	margin: 0;
+}
+
+
+
+/* Specific Layouts
+-------------------------------------------------------------- */
+
+.portfolio .date{color:#aaa;font-size:10px;line-height:15px;text-transform:uppercase;}
+
+
+
+
+/* Post Images 
+-------------------------------------------------------------- */
+.infocus_shadow_bottom,.infocus_shadow_top{border:none!important;outline:none!important;background-color:transparent!important;padding:0!important;width:100% !important;display:block;margin:0;opacity:.9;}
+.single_post_image{margin-bottom:10px!important;margin-top:-10px;}
+.post_grid_image img,.post_list_image img,.single_post_image img{vertical-align:bottom;}
+.post_grid_module,.post_list_module{
+	margin-bottom: 5px;
+}
+.post_grid_image{text-align:center;}
 @media only screen and (min-width : 641px) {
     body {
         text-align: left;
@@ -1216,22 +1269,22 @@ img.article_five_img {
         padding-right:250px;
     }
     .news_row1 {
-	clear: both;
-	min-height: 100px;
-	padding-right: 122px;
-	padding-left: 122px;
+        clear: both;
+        min-height: 100px;
+        padding-right: 122px;
+        padding-left: 122px;
     }
     .news_row2 {
-	clear: both;
-	min-height: 100px;
-	padding-right: 122px;
-	padding-left: 122px;
+        clear: both;
+        min-height: 100px;
+        padding-right: 122px;
+        padding-left: 122px;
     }
     .news_row3 {
-	clear: both;
-	min-height: 100px;
-	padding-right: 122px;
-	padding-left: 122px;
+        clear: both;
+        min-height: 100px;
+        padding-right: 122px;
+        padding-left: 122px;
     }
     .kpbox_container {
         clear: both;
@@ -1790,5 +1843,8 @@ img.article_five_img {
         clear: both;
         min-height: 62px;
         width:429px;
+    }
+    .one_third {
+        margin-right: 10px;
     }
 }
