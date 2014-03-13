@@ -9,6 +9,11 @@
 	position: relative;
 }
 
+.contactmap_container {
+	border-radius: 0px;
+	position: relative;
+}
+
 .more-arrow {
 	border-radius: 2px;
 	position: relative;
