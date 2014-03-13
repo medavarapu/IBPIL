@@ -270,10 +270,69 @@ body h1, h2, h3, h4, p, a, span {
     width: auto;
     min-height: 100px;
 }
+.media_col1 {
+    float:none;
+    width:auto;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
 .renewable_icon_container {
     float: none;
     width: auto;
     min-height: 100px;
+}
+.news_row3 {
+    clear:both;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.media_col2 {
+    float:none;
+    width:auto;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.news_row3 {
+    clear: both;
+    min-height: 100px;
+}
+.media_col1 {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.news_row1 {
+    clear:both;
+    min-height:100px;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+}
+.news_header {
+    clear:both;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+    padding-left:50px;
+    padding-right:50px;
+    min-height:70px;
+    padding-top:30px;
+}
+.news_row1 {
+    clear: both;
+    min-height: 100px;
+}
+.media_col2 {
+    float: none;
+    width: auto;
+    min-height: 100px;
+}
+.news_header {
+    clear: both;
+    min-height: 100px;
+    padding-left:250px;
+    padding-right:250px;
 }
 .header_shadow {
     clear: both;
@@ -284,11 +343,21 @@ body h1, h2, h3, h4, p, a, span {
     min-height: 100px;
     width:327px;
 }
+.media_container {
+    clear:both;
+    -webkit-transform:none;
+    -webkit-box-shadow:none;
+    min-height:70px;
+}
 .kpbox_container {
     clear:both;
     min-height:100px;
     -webkit-transform:none;
     -webkit-box-shadow:none;
+}
+.media_container {
+    clear: both;
+    min-height: 100px;
 }
 .kpbox_container {
     clear: both;
@@ -299,7 +368,7 @@ body h1, h2, h3, h4, p, a, span {
 }
 .page_contant {
     clear: both;
-    min-height: 100px;
+    min-height: 70px;
 }
 .overview_text {
     clear: both;
@@ -1087,7 +1156,7 @@ img.article_five_img {
     }
     .content {
         clear: both;
-        min-height: 100px;
+        min-height: 195px;
     }
     .quote_article1 {
         width: 890px;
@@ -1107,6 +1176,16 @@ img.article_five_img {
         min-height: 66px;
         width:970px;
     }
+    .media_col1 {
+        float: left;
+        width: 485px;
+        min-height: 66px;
+    }
+    .media_col2 {
+        float: left;
+        width: 485px;
+        min-height: 66px;
+    }
     .thermal_icon_container {
         float: left;
         width: 323px;
@@ -1124,7 +1203,35 @@ img.article_five_img {
     }
     .page_contant {
         clear: both;
-        min-height: 100px;
+        min-height: 70px;
+    }
+    .media_container {
+        clear: both;
+        min-height: 92px;
+    }
+    .news_header {
+        clear: both;
+        min-height: 62px;
+        padding-left:250px;
+        padding-right:250px;
+    }
+    .news_row1 {
+	clear: both;
+	min-height: 100px;
+	padding-right: 122px;
+	padding-left: 122px;
+    }
+    .news_row2 {
+	clear: both;
+	min-height: 100px;
+	padding-right: 122px;
+	padding-left: 122px;
+    }
+    .news_row3 {
+	clear: both;
+	min-height: 100px;
+	padding-right: 122px;
+	padding-left: 122px;
     }
     .kpbox_container {
         clear: both;
@@ -1422,6 +1529,16 @@ img.article_five_img {
         min-height: 66px;
         width:970px;
     }
+    .media_col1 {
+        float: left;
+        width: 485px;
+        min-height: 66px;
+    }
+    .media_col2 {
+        float: left;
+        width: 485px;
+        min-height: 66px;
+    }
     .thermal_icon_container {
         float: left;
         width: 323px;
@@ -1438,6 +1555,28 @@ img.article_five_img {
         min-height: 66px;
     }
     .page_contant {
+        clear: both;
+        min-height: 70px;
+    }
+    .media_container {
+        clear: both;
+        min-height: 92px;
+    }
+    .news_header {
+        clear: both;
+        min-height: 62px;
+        padding-left:351px;
+        padding-right:351px;
+    }
+    .news_row1 {
+        clear: both;
+        min-height: 100px;
+    }
+    .news_row2 {
+        clear: both;
+        min-height: 100px;
+    }
+    .news_row3 {
         clear: both;
         min-height: 100px;
     }
