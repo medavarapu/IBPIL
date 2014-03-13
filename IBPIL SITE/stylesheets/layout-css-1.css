@@ -1128,12 +1128,6 @@ img.article_five_img {
 }
 
 
-/* Headers
--------------------------------------------------------------- */
-
-h6{font-size:12px;letter-spacing:1.6px;margin-bottom:15px;padding-bottom:5px;text-transform:uppercase;}
-
-
 
 
 /* Images & Galleria
@@ -1144,9 +1138,10 @@ h6{font-size:12px;letter-spacing:1.6px;margin-bottom:15px;padding-bottom:5px;tex
 
 .one_third{
 	position: relative;
-	margin-right: 1%;
+	margin-right: 2%;
 	margin-bottom: 10px;
 	float: left;
+	margin-left: 2%;
 }
 
 /*
@@ -1156,8 +1151,10 @@ h6{font-size:12px;letter-spacing:1.6px;margin-bottom:15px;padding-bottom:5px;tex
 
 #content_inner{
 	position: relative;
-	width: auto;
-	margin: 0;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	
 }
 
 
