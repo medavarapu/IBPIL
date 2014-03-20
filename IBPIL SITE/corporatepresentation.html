@@ -10,11 +10,8 @@
   <script type="text/javascript" src="includes/extendjQuery.js"></script>
   <script type="text/javascript" src="includes/FlexiMenus2/fleximenus2.js"></script>
   <link href="includes/FlexiMenus2/CSSMenu_CSSMenu1.css" rel="stylesheet" type="text/css" />
-  <link href="stylesheets/video-js.css" rel="stylesheet">
-<script src="scripts/video.js"></script>
-<script>
-  videojs.options.flash.swf = "media/video-js.swf"
-</script>
+	<link rel="stylesheet" href="stylesheets/screen.css"/>
+
  </head>
  <body>
   <div class="main_wrapper">
@@ -73,7 +70,7 @@
           <ul>
            <li class="firstsm"> <a class="firstsm" href="presentations.html" target="_self"><font class="leaf">Corporate Video</font></a> 
            </li>
-           <li> <a href="#" target="_self"><font class="leaf">Presentation</font></a> 
+           <li> <a href="corporatepresentation.html" target="_self"><font class="leaf">Presentation</font></a> 
            </li>
            <li> <a href="companystructure.html" target="_self"><font class="leaf">Company Structure</font></a> 
            </li>
@@ -110,7 +107,7 @@
       <div class="icons">
        <img src="images/icons/video_icon.png" class="image" />
       </div>
-      <div class="name name_visited"> <a href="presentations.html">Corporate Video</a>
+      <div class="name"> <a href="presentations.html">Corporate Video</a>
 
       </div>
      </div>
@@ -118,7 +115,7 @@
       <div class="icons">
        <img src="images/icons/presentation_icon.png" class="image" />
       </div>
-      <div class="name"> <a href="corporatepresentation.html">Corporate Presentation</a>
+      <div class="name name_visited"> <a href="corporatepresentation.html">Corporate Presentation</a>
 
       </div>
      </div>
@@ -132,19 +129,183 @@
      </div>
     </div>
     <div class="page_contant">
-    <h4 class="page-title">
-        	<span>
-            	Presentations
-            </span>
-            
-        </h4>
-   <video class="video-js vjs-default-skin vjs-big-play-centered"
-  controls preload="auto" width="970" height="480"
-  poster="media/video_image.png"
-  data-setup='{"example_option":true}'>
- <source src="media/IBPIL - Presentations_x264.mp4" type='video/mp4' />
-</video>
-       
+    <div class="cp">
+  	<section class="slide cover" id="Cover">
+    <div>
+		<h2>IND-BARATH POWER INFRA LIMITED</h2>
+		<img src="images/ppt/cover.png" alt="">
+		<!--
+			To apply styles to the certain slides
+			set slide ID to get needed elements
+			-->
+		<style>
+			#Cover h2 {
+				margin:30px 0 0;
+				color:#FFF;
+				text-align:center;
+				font-size:50px;
+				padding-top:270px;
+				}
+			
+		</style>
+	</div>
+    </section>
+	<section class="slide Coverpage">
+    <div>
+		<h2>Company overview</h2>
+        <div class="pagesubdiv">
+        <h6>Company overview</h6>
+		<ol>
+			<li>3,543 MW portfolio
+            <ul>
+            <li>695 MW operational (489 MW thermal, 132 MW gas, 64 MW biomass, 9.5 MW hydro, 0.75 MW wind)</li>
+            <li>718 MW to be commissioned by Jun-14 and 810 MW under construction</li>
+            <li>1,320 MW thermal capacity under development</li>
+
+            </ul>
+            </li>
+			<li>Key financials (FY 13):
+            <ul>
+            <li>Revenue (INR 10,944m), EBITDA (INR 3,948m), PAT (INR 946m),  Net Worth (INR 14,253)</li>
+            </ul>
+            </li>
+			<li>Robust business model
+             <ul>
+            <li>Superior economics as the bulk of the portfolio is located in high power deficit micro markets</li>
+            <li>Generation is sold as a combination of short term and long term power contracts, allowing the company to <br/>pass on variations in input costs</li>
+            </ul>
+            </li>
+			<li>Secured fuel supply
+            <ul>
+            <li>Domestic coal linkage for 700 MW of IBEUL (3.07 MTPA linkage) and Phase I (660 MW) of IBEML (1.98 MTPA linkage)</li>
+            <li>Captive coal mines (~32 MTPA) in Indonesia - sufficient for requirements of existing plants</li>
+            <li>Gas linkage for 0.77 scmd available from GAIL</li>
+
+            </ul>
+            </li>
+		</ol>
+        </div>
+        <style>
+			.Coverpage {
+				background-image:url(images/ppt/pagecover.png);
+			}
+			.Coverpage h2 {
+				position:absolute;
+				color:#FFF;
+				font-size:35px;
+				top:45px;
+				left:70px;
+				}
+			.Coverpage h6 {
+				color:rgb(10,124,208);
+				font-size:14px;
+				font-weight:600;
+				padding-top:20px;
+			}
+			.Coverpage li {
+				font-size:15px;
+			}
+			.Coverpage img{
+				position:absolute;
+				top:130px;
+				right:100px;
+			}
+			.pagesubdiv {
+				position:absolute;
+				top:120px;
+				left:70px;
+				width:auto;
+				height:auto;
+			}
+			
+.description {
+    float: left;
+    width: 152px;
+    min-height: 55px;
+    padding-top:15px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.description h6 {
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-bottom: 5px;
+    height: auto;
+    min-height:10px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+			
+		</style>
+	</div>
+    </section>
+	<section class="slide Coverpage">
+    <div>
+		<h2>Corporate Structure</h2>
+        <img src="images/ppt/company_structure.png"/>
+	</div>
+</section>
+	<section class="slide Coverpage"><div>
+		<h2>Portfolio Overview</h2>
+		<img src="images/ppt/asset.png"/>
+	</div></section>
+	<section class="slide Coverpage">
+    <div>
+	  <h2>Key Management</h2>
+	  <img src="images/ppt/km.png"/>
+	</div>
+    </section>
+    <section class="slide Coverpage">
+    <div>
+	  <h2>PT Ind Barath Energy</h2>
+	  <img src="images/ppt/mines.png"/>
+	</div>
+    </section>
+    <section class="slide Coverpage">
+    <div>
+	  <h2>Ind-Barath Energy (Utkal) Limited </h2>
+	  <img src="images/ppt/utkal.png"/>
+	</div>
+    </section>
+    <section class="slide Coverpage">
+    <div>
+	  <h2>Ind-Barath Thermal Power Limited </h2>
+	  <img src="images/ppt/ibtpl.png"/>
+	</div>
+    </section>
+    <section class="slide Coverpage">
+    <div>
+	  <h2>Ind-Barath Power (Madras) Limited </h2>
+	  <img src="images/ppt/madras.png"/>
+	</div>
+    </section>
+      <section class="slide Coverpage">
+    <div>
+	  <h2>Ind-Barath Power Gencom Limited </h2>
+	  <img src="images/ppt/gencom.png"/>
+	</div>
+    </section>
+      <section class="slide Coverpage">
+    <div>
+	  <h2>Arkay Energy Rameswaram Limited </h2>
+	  <img src="images/ppt/arkay.png"/>
+	</div>
+    </section>
+     <section class="slide Coverpage">
+    <div>
+	  <h2>Arkay Energy Rameswaram Limited </h2>
+	  <img src="images/ppt/arkay.png"/>
+	</div>
+    </section>
+      <section class="slide Coverpage">
+    <div>
+	  <h2>Biomass Plants </h2>
+	  <img src="images/ppt/biomass.png"/>
+	</div>
+    </section>
+<div class="progress"><div></div>
+</div>
+     </div>  
      
     </div>
    </div>
@@ -161,6 +322,8 @@
     </div>
    </div>
   </div>
+  	<script src="scripts/shower.min.js"></script>
+
  </body>
 
 </html>

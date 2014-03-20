@@ -1238,7 +1238,10 @@ img.article_five_img {
 }
 .post_grid_image{text-align:center;}
 
-
+.cp{
+	padding-left: 50px;
+	padding-top: 30px;
+	}
 @media only screen and (min-width : 641px) {
     body {
         text-align: left;
