@@ -18,12 +18,13 @@
     background: none;
 }
 .sky-tabs {
-    position: relative;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 0;
-    text-align: left;
-    color: #666;
-	text-align:center;
+	position: relative;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 0;
+	text-align: left;
+	color: #666;
+	text-align: center;
+	padding-top: 20px;
 }
 .sky-tabs > input {
     position: absolute;
@@ -568,8 +569,8 @@ img.article_fifteen_img {
     padding: 0;
 }
 .article_fifteen_unit_wrapper {
-    width: auto;
-    float: none;
+	width: auto;
+	float: none;
 }
 /**/
 
