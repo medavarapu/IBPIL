@@ -550,8 +550,9 @@ a.article_five1_btn:active {
     padding-bottom:25px;
 }
 .page_contant {
-    clear: both;
-    min-height: 70px;
+	clear: both;
+	min-height: 70px;
+	height: auto;
 }
 .overview_text {
     clear: both;
