@@ -1538,8 +1538,9 @@ img.article_five_img {
         min-height: 66px;
     }
     .page_contant {
-        clear: both;
-        min-height: 70px;
+	clear: both;
+	min-height: 70px;
+	height: auto;
     }
     .article_five1_unit_wrapper {
         width: 323.3333333333333px;
