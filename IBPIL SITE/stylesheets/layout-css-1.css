@@ -1433,15 +1433,15 @@ img.article_five_img {
 }
 /* Post Images 
 -------------------------------------------------------------- */
- .infocus_shadow_bottom, .infocus_shadow_top {
-    border:none;
-    outline:none;
-    background-color:transparent;
-    padding:0;
-    width:100%;
-    display:block;
-    margin:0;
-    opacity:.9;
+.infocus_shadow_bottom,.infocus_shadow_top{border:none!important;outline:none!important;background-color:transparent!important;padding:0!important;width:100% !important;display:block;margin:0;opacity:.9;}
+.single_post_image{margin-bottom:10px!important;margin-top:-10px;}
+.post_grid_image img,.post_list_image img,.single_post_image img{vertical-align:bottom;}
+.post_grid_module,.post_list_module{
+	margin-bottom: 5px;
+}
+.cp {
+    padding-left: 50px;
+    padding-top: 40px;
 }
 .single_post_image {
     margin-bottom:10px;
