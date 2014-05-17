@@ -1293,7 +1293,7 @@ img.article_five_img {
 }
 .ud_container {
     position:relative;
-    top:270px;
+    top:245px;
     clear:both;
     -webkit-transform:none;
     -webkit-box-shadow:none;
@@ -1304,9 +1304,10 @@ img.article_five_img {
     padding-left:10px;
 }
 .ud_header {
+	min-height:146.5px;
 }
 .uc_header {
-    min-height: 146px;
+    min-height: 123.5px;
 }
 .ud_container {
     clear: both;
@@ -1791,10 +1792,10 @@ img.article_five_img {
         padding:10px;
     }
     .ud_header {
-        min-height: 120px;
+        min-height: 146.5px;
     }
     .uc_header {
-        min-height: 144px;
+	min-height: 123.5px;
     }
     .operational_header {
         position:relative;
@@ -2146,10 +2147,10 @@ img.article_five_img {
         padding:10px;
     }
     .ud_header {
-        min-height: 126px;
+        min-height: 146.5px;
     }
     .uc_header {
-        min-height: 144px;
+        min-height: 123.5px;
     }
     .operational_header {
         position:absolute;

@@ -283,18 +283,18 @@
 	border-bottom-left-radius: 5px;
 }
 .uc_header p {
-	width:70px;
-    font-size:12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    vertical-align: middle;
-    position:relative;
-    left: -15px;
-    top: 60px;
-    margin:0px;
+	width: 70px;
+	font-size: 12px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	vertical-align: middle;
+	position: relative;
+	left: -15px;
+	top: 45px;
+	margin: 0px;
 }
 .ud_header {
     float: left;
@@ -319,7 +319,7 @@
     vertical-align: middle;
     position:relative;
     left: -15px;
-    top: 50px;
+    top: 55px;
     margin:0px;
 }
 .ud_container_body {
