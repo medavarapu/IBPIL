@@ -13,8 +13,8 @@ article {
 }
 /*Teambox ************************ */
  .team-container {
-    position: relative;
-    padding-left: 18px;
+	position: relative;
+	padding-left: 18px;
 }
 .team-container article {
     margin-bottom: 0;
