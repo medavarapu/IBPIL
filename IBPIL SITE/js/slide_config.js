@@ -1,8 +1,8 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'Company Overview',
-    subtitle: 'Overview',
+    title: 'Group & Business Overview',
+    subtitle: 'Executive Summary',
     //eventInfo: {
     //  title: 'Google I/O',
     //  date: '6/x/2013'

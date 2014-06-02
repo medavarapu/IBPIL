@@ -690,24 +690,25 @@ aside.gdbarr img {
 .block{
 	position:absolute;
 	top:180px;
-	left:150px;
+	left:130px;
 	font-size:14px;
 }
 .block ul {
-	list-style-type:square;
+  list-style-type:square;
   margin-left: 1.2em;
-  margin-bottom: 1em;
   position: relative;
 }
 
 /* line 303, ../scss/default.scss */
 .block ul li ul {
+	list-style-type:circle;
   margin-left: 2em;
-  margin-bottom: 0;
+  margin-bottom: 1em;
+  
 }
 
 /* line 321, ../scss/default.scss */
-.block ul ul {
+.block ul li {
   margin-top: .5em;
 }
 .blockimg{
