@@ -9,8 +9,28 @@
   <link href="stylesheets/layout-css-1.css" rel="stylesheet" type="text/css" />
   <script type="text/javascript" src="includes/extendjQuery.js"></script>
   <script type="text/javascript" src="includes/FlexiMenus2/fleximenus2.js"></script>
-  <script type="text/javascript" src="scripts/jquery-1.7.2.min.js"></script>
-  <script type="text/javascript" src="scripts/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Renewables(MW)',     74],
+          ['Gas(MW)',      150],
+          ['Coal(MW)',  489],
+        ]);
+
+        var options = {
+          title: 'Projects in operations (MW)',
+          is3D: true,
+		  pieSliceText:'value'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script>
 
   <link href="includes/FlexiMenus2/CSSMenu_CSSMenu1.css" rel="stylesheet" type="text/css" />
   <link href="stylesheets/font-awesome.css" rel="stylesheet" type="text/css" />
@@ -172,7 +192,7 @@ vertical-align:center;
       <div class="welcome_text_unit_wrapper">
        <div class="welcome_text">
         <p style="text-align: justify;">IBPIL is promoted by Mr. K. Raghu, an entrepreneur having rich experience in implementing and managing power projects. The group has been into business of power generation since 1999. Currently, Ind Barath group has a portfolio of nine projects in operation and another three projects under development/implementation. These projects are geographically diversed in India viz. Andhra Pradesh, Maharashtra, Himachal Pradesh, Kerala and Tamil Nadu. The projects are based on variety of fuels such as coal, gas and renewable energy sources(Biomass, Hydro & Wind). The details of the projects of the group are depicted as under.</p>
-        <br/>
+        <div id="piechart_3d" style="width: 600px; height: 300px; margin-left: 185px; margin-right:185px;"></div>
         <p>The group has 713 MW of capacity under operation and 2830 MW of assets under construction/development.</p>
         <br/>
         <p class="">IBPIL through its wholly owned subsidiary company viz. P T Ind Bharath Energy, incorporated in Indonesia, had acquired coal mines in South Kalimantan Region of Indonesia to secure sustained fuel supply to the group thermal power projects. The mines have proven coal deposits of more than 30 million tonnes, which is adequate to support the various group power projects.</p>
@@ -188,37 +208,37 @@ vertical-align:center;
   </tr>
   <tr>
     <td>1<sup>st</sup></td>
-    <td>29000</td>
+    <td>290</td>
     <td>June 2007</td>
     <td>CITI group, UTI Ventures</td>
   </tr>
   <tr>
     <td>2<sup>nd</sup></td>
-    <td>42500</td>
+    <td>425</td>
     <td>October 2009</td>
     <td>CITI, Sequoia, Bessemer</td>
   </tr>
   <tr>
     <td>3<sup>rd</sup></td>
-    <td>10500</td>
+    <td>105</td>
     <td>September 2009</td>
     <td>PTC Financial Services</td>
   </tr>
   <tr>
     <td>4<sup>th</sup></td>
-    <td>20000</td>
+    <td>200</td>
     <td>March 2011</td>
     <td>3i Group</td>
   </tr>
   <tr>
     <td>5<sup>th</sup></td>
-    <td>6000</td>
+    <td>600</td>
     <td>October 2011</td>
     <td>Goldman Sachs</td>
   </tr>
   <tr>
     <td>6<sup>th</sup></td>
-    <td>40000</td>
+    <td>400</td>
     <td>May 2013</td>
     <td>JP Morgan / Meryll Lynch</td>
   </tr>
