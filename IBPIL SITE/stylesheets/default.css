@@ -498,7 +498,7 @@ article.smaller q:before, article.smaller q:after {
 /* ===== SLIDE CONTENT ===== */
 /* line 803, ../scss/default.scss */
 .logoslide {
-	background:url(../images/ppt/background.png) no-repeat center center;
+	background:url(../images/ppt/background.jpg) no-repeat center center;
 }
 .logoslide h1 {
 	color:rgb(255,255,255);
