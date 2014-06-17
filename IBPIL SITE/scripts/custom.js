@@ -51,37 +51,8 @@ jQuery(document).ready(function() {
 	 * prettyPhoto 
 	 */
 	jQuery("a[rel^='prettyPhoto'], a[rel^='lightbox']").prettyPhoto({
-		overlay_gallery: false, social_tools: '',animation_speed:'fast',slideshow:3000,autoplay_slideshow:true, 'theme': prettyphotoTheme /* light_square / dark_rounded / light_square / dark_square / facebook */															
+		overlay_gallery: false, 'theme': prettyphotoTheme /* light_square / dark_rounded / light_square / dark_square / facebook */															
 	});
-	
-	/* 
-	 * spam protction on mailto: links
-	 */
-	jQuery('a.email_link_noreplace').nospam({
-      replaceText: false,
-      filterLevel: 'normal'
-    });
-
-	jQuery('a.email_link_replace').nospam({
-      replaceText: true,
-      filterLevel: 'normal'
-    });
-
-	/* 
-	 * Contact form submit
-	 */
-	jQuery('.contact_form_submit').click(function() {
-		clearInterval(preLoaderSmall);
-		preLoaderCount = 0;
-		mysitePreloaderSmall('.mysite_contact_feedback');
-		jQuery(this).next().css('display','inline-block');
-	});
-	
-	/* 
-	 * "target_blank" links
-	 */
-	jQuery('.flickr_badge_image a').attr('target', '_blank');
-	jQuery('.target_blank').attr('target', '_blank');
 	
 });
 

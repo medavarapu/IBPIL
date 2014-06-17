@@ -53,6 +53,7 @@ slides {
   -webkit-transition-delay: 100ms;
   -moz-transition: opacity 800ms ease-in 100ms;
   -o-transition: opacity 800ms ease-in 100ms;
+  -ms-transition: opacity 800ms ease-in 100ms;
   transition: opacity 800ms ease-in 100ms;
 }
 
@@ -65,6 +66,8 @@ slides > slide {
   top: 50%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -86,6 +89,7 @@ slides > slide {
   -webkit-transition: all 0.6s ease-in-out;
   -moz-transition: all 0.6s ease-in-out;
   -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
 }
 /* line 83, ../scss/default.scss */
@@ -112,6 +116,7 @@ slides > slide.current .gdbar {
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
   background-size: 100% 100%;
+  -ms-background-size: 100% 100%;
 }
 /* line 112, ../scss/default.scss */
 slides > slide.next {
@@ -137,6 +142,7 @@ slides > slide:not(.nobackground):before {
   background: url(../../images/google_developers_icon_128.png) no-repeat 0 50%;
   -webkit-background-size: 30px 30px;
   -moz-background-size: 30px 30px;
+  -ms-background-size:30px 30px;
   -o-background-size: 30px 30px;
   background-size: 30px 30px;
   padding-left: 40px;
@@ -272,6 +278,7 @@ slides.layout-faux-widescreen #next-slide-area {
   -webkit-transition: opacity 0.5s ease-in;
   -moz-transition: opacity 0.5s ease-in;
   -o-transition: opacity 0.5s ease-in;
+  -ms-transition: opacity 0.5s ease-in;
   transition: opacity 0.5s ease-in;
 }
 /* line 332, ../scss/default.scss */
@@ -293,6 +300,8 @@ pre {
   position: relative;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
   box-sizing: border-box;
   /*overflow: hidden;*/
 }
@@ -329,6 +338,8 @@ iframe {
   border: 1px solid #e6e6e6;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -358,6 +369,7 @@ slide.fill {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -ms-background-size: cover;
   background-size: cover;
 }
 
@@ -411,14 +423,17 @@ article.smaller q:before, article.smaller q:after {
   -webkit-box-orient: vertical;
   -moz-box-orient: vertical;
   -ms-box-orient: vertical;
+  -o-box-orient: vertical;
   box-orient: vertical;
   -webkit-box-align: center;
   -moz-box-align: center;
   -ms-box-align: center;
+  -o-box-align: center;
   box-align: center;
   -webkit-box-pack: center;
   -moz-box-pack: center;
   -ms-box-pack: center;
+  -o-box-pack: center;
   box-pack: center;
   height: 100%;
   width: 100%;
@@ -429,14 +444,17 @@ article.smaller q:before, article.smaller q:after {
   -webkit-box-orient: vertical;
   -moz-box-orient: vertical;
   -ms-box-orient: vertical;
+  -o-box-orient: vertical;
   box-orient: vertical;
   -webkit-box-align: left;
   -moz-box-align: left;
   -ms-box-align: left;
+  -o-box-align: left;
   box-align: left;
   -webkit-box-pack: center;
   -moz-box-pack: center;
   -ms-box-pack: center;
+  -o-box-pack: center;
   box-pack: center;
   height: 100%;
   width: 100%;
@@ -447,14 +465,17 @@ article.smaller q:before, article.smaller q:after {
   -webkit-box-orient: vertical;
   -moz-box-orient: vertical;
   -ms-box-orient: vertical;
+  -o-box-orient: vertical;
   box-orient: vertical;
   -webkit-box-align: end;
   -moz-box-align: end;
   -ms-box-align: end;
+  -o-box-align: end;
   box-align: end;
   -webkit-box-pack: center;
   -moz-box-pack: center;
   -ms-box-pack: center;
+  -o-box-pack: center;
   box-pack: center;
   height: 100%;
   width: 100%;
@@ -466,6 +487,7 @@ article.smaller q:before, article.smaller q:after {
   -webkit-transition-delay: 1s;
   -moz-transition: opacity 0.6s ease-in 1s;
   -o-transition: opacity 0.6s ease-in 1s;
+  -ms-transition: opacity 0.6s ease-in 1s;
   transition: opacity 0.6s ease-in 1s;
   opacity: 0;
 }
@@ -564,15 +586,18 @@ aside.gdbar {
   background: -webkit-linear-gradient(left, #e6e6e6, #e6e6e6) no-repeat;
   background: -moz-linear-gradient(left, #e6e6e6, #e6e6e6) no-repeat;
   background: -o-linear-gradient(left, #e6e6e6, #e6e6e6) no-repeat;
+  background: -ms-linear-gradient(left, #e6e6e6, #e6e6e6) no-repeat;
   background: linear-gradient(left, #e6e6e6, #e6e6e6) no-repeat;
   -webkit-background-size: 0% 100%;
   -moz-background-size: 0% 100%;
   -o-background-size: 0% 100%;
+  -ms-background-size: 0% 100%;
   background-size: 0% 100%;
   -webkit-transition: all 0.5s ease-out;
   -webkit-transition-delay: 0.5s;
   -moz-transition: all 0.5s ease-out 0.5s;
   -o-transition: all 0.5s ease-out 0.5s;
+  -ms-transition: all 0.5s ease-out 0.5s;
   transition: all 0.5s ease-out 0.5s;
   /* Better to transition only on background-size, but not sure how to do that with the mixin. */
 }
@@ -627,6 +652,7 @@ aside.gdbarr {
   background: -webkit-linear-gradient(left, #e6e6e6, #e6e6e6) no-repeat;
   background: -moz-linear-gradient(left, #e6e6e6, #e6e6e6) no-repeat;
   background: -o-linear-gradient(left, #e6e6e6, #e6e6e6) no-repeat;
+  background: -ms-linear-gradient(left, #e6e6e6, #e6e6e6) no-repeat;
   background: linear-gradient(left, #e6e6e6, #e6e6e6) no-repeat;
   -webkit-background-size: 0% 100%;
   -moz-background-size: 0% 100%;
@@ -636,6 +662,7 @@ aside.gdbarr {
   -webkit-transition-delay: 0.5s;
   -moz-transition: all 0.5s ease-out 0.5s;
   -o-transition: all 0.5s ease-out 0.5s;
+  -ms-transition: all 0.5s ease-out 0.5s;
   transition: all 0.5s ease-out 0.5s;
   /* Better to transition only on background-size, but not sure how to do that with the mixin. */
 }
@@ -648,7 +675,6 @@ aside.gdbarr img {
   top:-10px;
   left:-545px;
   position: absolute;
-
   margin: 10px 15px ;
   -moz-border-radius-topleft:10px;
   -moz-border-radius-bottomleft:10px;
@@ -753,6 +779,7 @@ aside.gdbarr img {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(85%, #ffffff), color-stop(100%, #e6e6e6));
   background: -webkit-linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
   background: -moz-linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
+  background: -ms-linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
   background: -o-linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
   background: linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
   background-color: white;
@@ -783,6 +810,7 @@ aside.gdbarr img {
     background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(85%, #ffffff), color-stop(100%, #e6e6e6));
     background: -webkit-linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
     background: -moz-linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
+	background: -ms-linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
     background: -o-linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
     background: linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
     background-color: white;
@@ -810,6 +838,7 @@ aside.gdbarr img {
   slides slide .build > * {
     -webkit-transition: none;
     -moz-transition: none;
+	-ms-transition: none;
     -o-transition: none;
     transition: none;
   }

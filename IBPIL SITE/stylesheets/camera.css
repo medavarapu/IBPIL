@@ -109,6 +109,8 @@
 	border: 1px solid #ffffff;
 	-webkit-border-radius: 18px;
 	-moz-border-radius: 18px;
+	-ms-border-radius: 18px;
+	-o-border-radius: 18px;
 	border-radius: 18px;
 	height: 36px;
 	left: 50%;

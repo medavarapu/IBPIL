@@ -43,6 +43,8 @@ The control icons are from a custom font. Each icon corresponds to a character
   /* box-shadow */
   -webkit-box-shadow: 0 0 2em #ffffff;
   -moz-box-shadow: 0 0 2em #ffffff;
+  -o-box-shadow: 0 0 2em #ffffff;
+  -ms-box-shadow: 0 0 2em #ffffff;
   box-shadow: 0 0 2em #ffffff;
 }
 .vjs-default-skin .vjs-slider-handle {
@@ -100,6 +102,7 @@ The default control bar that is a container for most of the controls.
   -webkit-transition: visibility 0.1s, opacity 0.1s;
   -moz-transition: visibility 0.1s, opacity 0.1s;
   -o-transition: visibility 0.1s, opacity 0.1s;
+  -ms-transition: visibility 0.1s, opacity 0.1s;
   transition: visibility 0.1s, opacity 0.1s;
 }
 /* Hide the control bar when the video is playing and the user is inactive  */
@@ -111,6 +114,7 @@ The default control bar that is a container for most of the controls.
   -webkit-transition: visibility 1s, opacity 1s;
   -moz-transition: visibility 1s, opacity 1s;
   -o-transition: visibility 1s, opacity 1s;
+  -ms-transition: visibility 1s, opacity 1s;
   transition: visibility 1s, opacity 1s;
 }
 .vjs-default-skin.vjs-controls-disabled .vjs-control-bar {
@@ -263,6 +267,7 @@ fonts to show/hide properly.
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -o-transition: all 0.4s;
+  -ms-transition: all 0.4s;
   transition: all 0.4s;
 }
 /* On hover, make the progress bar grow to something that's more clickable.
@@ -277,6 +282,7 @@ fonts to show/hide properly.
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
   transition: all 0.2s;
 }
 /* Box containing play and load progresses. Also acts as seek scrubber. */
@@ -382,15 +388,20 @@ easily in the skin designer. http://designer.videojs.com/
   /* border-radius */
   -webkit-border-radius: 0.8em;
   -moz-border-radius: 0.8em;
+  -o-border-radius: 0.8em;
+  -ms-border-radius: 0.8em;
   border-radius: 0.8em;
   /* box-shadow */
   -webkit-box-shadow: 0px 0px 1em rgba(255, 255, 255, 0.25);
   -moz-box-shadow: 0px 0px 1em rgba(255, 255, 255, 0.25);
+  -o-box-shadow: 0px 0px 1em rgba(255, 255, 255, 0.25);
+  -ms-box-shadow: 0px 0px 1em rgba(255, 255, 255, 0.25);
   box-shadow: 0px 0px 1em rgba(255, 255, 255, 0.25);
   /* transition */
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -o-transition: all 0.4s;
+  -ms-transition: all 0.4s;
   transition: all 0.4s;
 }
 /* Optionally center */
@@ -425,11 +436,14 @@ easily in the skin designer. http://designer.videojs.com/
   /* box-shadow */
   -webkit-box-shadow: 0 0 3em #ffffff;
   -moz-box-shadow: 0 0 3em #ffffff;
+  -o-box-shadow: 0 0 3em #ffffff;
+  -ms-box-shadow: 0 0 3em #ffffff;
   box-shadow: 0 0 3em #ffffff;
   /* transition */
   -webkit-transition: all 0s;
   -moz-transition: all 0s;
   -o-transition: all 0s;
+  -ms-transition: all 0s;
   transition: all 0s;
 }
 .vjs-default-skin .vjs-big-play-button:before {
@@ -465,6 +479,7 @@ easily in the skin designer. http://designer.videojs.com/
   -webkit-animation: spin 1.5s infinite linear;
   -moz-animation: spin 1.5s infinite linear;
   -o-animation: spin 1.5s infinite linear;
+  -ms-animation: spin 1.5s infinite linear;
   animation: spin 1.5s infinite linear;
 }
 .vjs-default-skin .vjs-loading-spinner:before {
@@ -500,6 +515,14 @@ easily in the skin designer. http://designer.videojs.com/
   }
   100% {
     -o-transform: rotate(359deg);
+  }
+}
+@-ms-keyframes spin {
+  0% {
+    -ms-transform: rotate(0deg);
+  }
+  100% {
+    -ms-transform: rotate(359deg);
   }
 }
 @keyframes spin {
@@ -557,6 +580,8 @@ easily in the skin designer. http://designer.videojs.com/
   /* box-shadow */
   -webkit-box-shadow: -0.2em -0.2em 0.3em rgba(255, 255, 255, 0.2);
   -moz-box-shadow: -0.2em -0.2em 0.3em rgba(255, 255, 255, 0.2);
+  -o-box-shadow: -0.2em -0.2em 0.3em rgba(255, 255, 255, 0.2);
+  -ms-box-shadow: -0.2em -0.2em 0.3em rgba(255, 255, 255, 0.2);
   box-shadow: -0.2em -0.2em 0.3em rgba(255, 255, 255, 0.2);
 }
 .vjs-default-skin .vjs-menu-button:hover .vjs-menu {
@@ -586,6 +611,8 @@ easily in the skin designer. http://designer.videojs.com/
   /* box-shadow */
   -webkit-box-shadow: 0 0 1em #ffffff;
   -moz-box-shadow: 0 0 1em #ffffff;
+  -o-box-shadow: 0 0 1em #ffffff;
+  -ms-box-shadow: 0 0 1em #ffffff;
   box-shadow: 0 0 1em #ffffff;
 }
 .vjs-default-skin .vjs-menu-button ul li.vjs-menu-title {
@@ -612,6 +639,8 @@ easily in the skin designer. http://designer.videojs.com/
   /* box-shadow */
   -webkit-box-shadow: 0 0 1em #ffffff;
   -moz-box-shadow: 0 0 1em #ffffff;
+  -o-box-shadow: 0 0 1em #ffffff;
+  -ms-box-shadow: 0 0 1em #ffffff;
   box-shadow: 0 0 1em #ffffff;
 }
 /*
@@ -655,6 +684,7 @@ control positioning and full window mode. **
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  -o-user-select: none;
   user-select: none;
 }
 /* Playback technology elements expand to the width/height of the containing div
